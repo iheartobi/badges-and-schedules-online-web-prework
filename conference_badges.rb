@@ -7,3 +7,8 @@ def batch_badge_creator(guests)
     badge_maker(name)
   end
 end 
+
+def assign_rooms(guest)
+  number = 0 
+  
+end 
