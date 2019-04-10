@@ -10,5 +10,8 @@ end
 
 def assign_rooms(guest)
   number = 0 
-  
-end 
+  guests.collect.do |name|
+    number += 1
+     "Hello, #{name}! You'll be assigned to room #{number}!"
+ end 
+end
