@@ -5,4 +5,5 @@ end
 def batch_badge_creator(guests)
   guests.collect do |name|
     badge_maker(name)
+  end
 end 
